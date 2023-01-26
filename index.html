@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Songs</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css"/>
+
+    <meta name="Author" lang="es" content="Joel"/>
+    <link type="image/x-icon" rel="shortcut icon" href="./assets/images/spotify-logo.png">
+</head>
+<body class="bg-black">
+
+<!--header-->
+<div class="container-fluid p-0">
+    <header>
+        <nav class="bg-white p-3  d-flex flex-wrap align-items-center justify-content-center justify-content-md-between py-3 mb-4 border-bottom">
+            <div class="d-flex align-items-center col-md-3 mb-2 mb-md-0 text-dark text-decoration-none">
+                <a class="navbar-brand" href="index.html">
+                    <img src="assets/images/spotify-logo.png " class="img-fluid ms-2" width="9%">
+                </a>
+            </div>
+
+
+            <div class="col-md-3 text-end">
+                <button type="button" class="btn btn-outline-success me-2">Login</button>
+                <!--                <button type="button" class="btn btn-primary">Sign-up</button>-->
+            </div>
+        </nav>
+    </header>
+</div>
+
+<!--form-->
+<div class="container-fluid text-center pt-3">
+    <main>
+        <div class="row justify-content-center pt-5">
+            <div class="col-11 col-md-4  ">
+              <form action="main.html">
+                  <div class="card">
+                      <div class="card-header">
+                          <div class="row justify-content-center my-3">
+                              <div class="col-3">
+                                  <img class="card-img-top" src="https://static.vecteezy.com/system/resources/previews/000/421/317/original/music-note-icon-vector-illustration.jpg">
+                              </div>
+                          </div>
+                          <h1 class="text-center">Welcome</h1>
+
+                      </div>
+                      <div class="card-body  my-5 px-5">
+                          <div class="row mb-3">
+                              <label for="staticEmail" class="col-sm-3 col-form-label">Email</label>
+                              <div class="col-sm-9">
+                                  <input value="1@gamil.com" type="email"  class="form-control"  placeholder="ex. joel@gmail.com"  required >
+                              </div>
+                          </div>
+                          <div class="mb-3 row">
+                              <label for="inputPassword" class="col-sm-3 col-form-label">Password</label>
+                              <div class="col-sm-9">
+                                  <input value="1@gamil.com" type="password" class="form-control" id="inputPassword" placeholder="****    " required >
+                              </div>
+                          </div>
+                      </div>
+
+                      <div class="card-footer mt-3 p-4">
+                          <button type="submit" class="btn btn-primary ">Start</button>
+                          <button class="btn btn-primary" type="button" disabled>
+                              <span class="spinner-grow spinner-grow-sm" role="status" aria-hidden="true"></span>
+                              Loading...
+                          </button>
+                      </div>
+                  </div>
+              </form>
+            </div>
+        </div>
+    </main>
+    <aside>
+            <div class="p-2">
+                <ul class="list-group ">
+                    <li class="list-group-item active" aria-current="true">Menu</li>
+                    <li class="list-group-item">
+                        <a href="#information" class="text-decoration-none">Information</a>
+                    </li>
+                    <li class="list-group-item">
+                        <a href="#video" class="text-decoration-none">Video</a>
+                    </li>
+
+                </ul>
+            </div>
+    </aside>
+</div>
+
+</body>
+</html>
